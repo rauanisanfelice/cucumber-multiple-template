@@ -1,4 +1,4 @@
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rauanisanfelice/cucumber-multiple-templateo.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rauanisanfelice/cucumber-multiple-template.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/rauanisanfelice/cucumber-multiple-template.svg)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/rauanisanfelice/cucumber-multiple-template.svg)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/rauanisanfelice/cucumber-multiple-template.svg)
