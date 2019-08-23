@@ -1,0 +1,33 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Projeto de testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run clear && npm run exec && npm run report && npm run start",
+    "clear": "./node_modules/.bin/rimraf ./reports/features/*",
+    "exec": "cucumber-js -f json:reports/report.json",
+    "report": "node cucumber.js",
+    "start": "start ./reports/index.html"
+  },
+  "keywords": [
+    "Cucumber",
+    "test",
+    "Selenium"
+  ],
+  "author": "Rauan Ishida Sanfelice",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^5.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^75.1.0",
+    "cucumber": "^5.1.0",
+    "geckodriver": "^1.16.2",
+    "multiple-cucumber-html-reporter": "^1.12.0",
+    "rimraf": "^3.0.0",
+    "selenium-webdriver": "^3.6.0",
+    "shelljs": "^0.8.3"
+  }
+}

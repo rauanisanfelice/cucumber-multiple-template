@@ -1,0 +1,61 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Cookbook Home Page",
+    "line": 1,
+    "id": "test-cookbook-home-page",
+    "tags": [],
+    "uri": "features\\google.feature",
+    "elements": [
+      {
+        "id": "test-cookbook-home-page;test-cookbook-title-description",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Cookbook Title Description",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open the page",
+            "match": {
+              "location": "features\\steps\\google.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Search \"futebol\"",
+            "match": {
+              "location": "features\\steps\\google.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Close the page",
+            "match": {
+              "location": "features\\steps\\google.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
